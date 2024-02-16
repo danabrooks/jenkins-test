@@ -7,9 +7,10 @@ pipeline {
                 echo 'Compile here'
             }
         }
-        stage('Line files')
+        stage('Line files') {
             steps {
                 echo 'Lint here'
             }
+        }
     }
 }
